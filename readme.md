@@ -60,7 +60,7 @@
 ### Step 1: Clone or Download
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/file-organizer.git
+git clone https://github.com/AryanPatel03/File-Organizer---Automation-Script.git
 cd file-organizer
 
 # Or download ZIP and extract
@@ -472,10 +472,10 @@ SOFTWARE.
 
 ## 📧 Contact
 
-- **Author:** Your Name
-- **Email:** your.email@example.com
-- **GitHub:** [@yourusername](https://github.com/yourusername)
-- **Project Link:** [https://github.com/yourusername/file-organizer](https://github.com/yourusername/file-organizer)
+- **Author:** Aryan Virani
+- **Email:** aryanvirani@zohomail.in
+- **GitHub:** [@AryanPatel03](https://github.com/AryanPatel03)
+- **Project Link:** [https://github.com/AryanPatel03/File-Organizer---Automation-Script.git](https://github.com/AryanPatel03/File-Organizer---Automation-Script.git)
 
 ---
 

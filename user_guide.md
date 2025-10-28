@@ -1067,11 +1067,11 @@ Found this guide helpful? Have suggestions for improvement?
 - ⭐ Star the project on GitHub
 - 📝 Open an issue for corrections
 - 🔄 Submit a pull request for additions
-- 📧 Email feedback to: your.email@example.com
+- 📧 Email feedback to: aryanvirani@zohomail.in
 
 ---
 
 **Happy Organizing! 🎉**
 
-*Last Updated: October 2024*
+*Last Updated: October 2025*
 *Version: 1.0.0*
