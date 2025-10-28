@@ -682,7 +682,7 @@ Examples:
   %(prog)s --undo -p /path/to/directory
   %(prog)s --create-config
 
-For more information, visit: https://github.com/AryanPatel03/File-Organizer---Automation-Script
+For more information, visit: https://github.com/AryanPatel03/File_Organizer-Automation_Script
         """
     )
     
