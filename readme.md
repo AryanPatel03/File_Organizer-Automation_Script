@@ -8,35 +8,35 @@
 
 ---
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- 🎯 **Smart File Classification** - Automatically categorizes files into Documents, Images, Videos, Audio, Archives, Code, and more
-- 🔄 **Duplicate Handling** - Three strategies: rename with timestamps, skip, or overwrite
-- 🔙 **Undo Functionality** - Reverse any organization operation with a single command
-- 👀 **Dry Run Mode** - Preview changes before applying them
-- 📊 **Real-time Progress** - Beautiful progress bars and status updates
-- 🎨 **Rich Terminal UI** - Colored output with tables and panels
+- **Smart File Classification** - Automatically categorizes files into Documents, Images, Videos, Audio, Archives, Code, and more
+- **Duplicate Handling** - Three strategies: rename with timestamps, skip, or overwrite
+- **Undo Functionality** - Reverse any organization operation with a single command
+- **Dry Run Mode** - Preview changes before applying them
+- **Real-time Progress** - Beautiful progress bars and status updates
+- **Rich Terminal UI** - Colored output with tables and panels
 
 ### Advanced Features
-- ⚙️ **Configurable Categories** - Customize file types via external JSON config
-- 🔍 **Recursive Organization** - Process subdirectories optionally
-- 📝 **Comprehensive Logging** - Rotating logs with configurable levels
-- 🛡️ **Error Recovery** - Handles permissions, disk space, and edge cases
-- 🔗 **Symbolic Link Support** - Safely handles symlinks
-- 🌐 **Cross-Platform** - Works on Windows, macOS, and Linux
-- 📈 **Detailed Statistics** - Summary reports with time taken and file counts
+- **Configurable Categories** - Customize file types via external JSON config
+- **Recursive Organization** - Process subdirectories optionally
+- **Comprehensive Logging** - Rotating logs with configurable levels
+- **Error Recovery** - Handles permissions, disk space, and edge cases
+- **Symbolic Link Support** - Safely handles symlinks
+- **Cross-Platform** - Works on Windows, macOS, and Linux
+- **Detailed Statistics** - Summary reports with time taken and file counts
 
 ### Safety Features
-- ✅ Never overwrites files (by default)
-- ✅ Skips system files automatically
-- ✅ Validates disk space before operations
-- ✅ Creates backups of operation history
-- ✅ Handles files currently in use
+- Never overwrites files (by default)
+- Skips system files automatically
+- Validates disk space before operations
+- Creates backups of operation history
+- Handles files currently in use
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
@@ -46,11 +46,10 @@
 - [Project Structure](#-project-structure)
 - [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -110,7 +109,7 @@ python file_organizer.py -p /path/to/folder -c config.json
 
 ---
 
-## 📖 Usage Examples
+## Usage Examples
 
 ### Example 1: Organize Downloads Folder
 ```bash
@@ -125,7 +124,7 @@ python file_organizer.py -p ~/Downloads
 Found 127 file(s) to organize.
 Organizing files... ████████████████████ 100%
 
-📊 Organization Summary
+Organization Summary
 ┏━━━━━━━━━━━━━┳━━━━━━━┓
 ┃ Metric      ┃ Value ┃
 ┡━━━━━━━━━━━━━╇━━━━━━━┩
@@ -169,7 +168,7 @@ Minimal output, useful for automation scripts.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Configuration File Structure
 
@@ -225,7 +224,7 @@ Edit `config.json` to add new categories:
 
 ---
 
-## 🎮 Command Reference
+## Command Reference
 
 ### Basic Commands
 
@@ -257,7 +256,7 @@ python file_organizer.py -p ~/Downloads -q
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 file-organizer/
@@ -280,7 +279,7 @@ file-organizer/
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -341,7 +340,7 @@ python file_organizer.py -p ~/folder -q
 
 ---
 
-## 📊 Before & After Examples
+## Before & After Examples
 
 ### Before Organization
 ```
@@ -377,7 +376,7 @@ Downloads/
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 1. **Cleaning Downloads Folder** - Organize accumulated downloads
 2. **Project Management** - Sort project files by type
@@ -388,17 +387,17 @@ Downloads/
 
 ---
 
-## 🔐 Security & Privacy
+## Security & Privacy
 
-- ✅ **No Internet Connection Required** - Works completely offline
-- ✅ **No Data Collection** - No telemetry or analytics
-- ✅ **Local Processing** - All operations stay on your machine
-- ✅ **Open Source** - Inspect the code yourself
-- ✅ **No Admin Rights Needed** - Works with user permissions
+- **No Internet Connection Required** - Works completely offline
+- **No Data Collection** - No telemetry or analytics
+- **Local Processing** - All operations stay on your machine
+- **Open Source** - Inspect the code yourself
+- **No Admin Rights Needed** - Works with user permissions
 
 ---
 
-## 🚀 Performance
+## Performance
 
 - **Speed:** Processes 1000+ files in under 10 seconds
 - **Memory:** Low memory footprint (<50MB)
@@ -407,7 +406,7 @@ Downloads/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
@@ -431,37 +430,7 @@ python -m pytest tests/
 
 ---
 
-## 📝 License
-
-This project is licensed under the Infotact License - see below for details:
-
-```
-Infotact License
-
-Copyright (c) 2025 Aryan Virani
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-## 🌟 Acknowledgments
+## Acknowledgments
 
 - Built with Python 3
 - UI powered by [Rich](https://github.com/Textualize/rich)
@@ -469,7 +438,7 @@ SOFTWARE.
 
 ---
 
-## 📧 Contact
+## Contact
 
 - **Author:** Aryan Virani
 - **Email:** aryanvirani@zohomail.in
@@ -478,7 +447,7 @@ SOFTWARE.
 
 ---
 
-## ⭐ Star History
+## Star History
 
 If you find this project useful, please consider giving it a star on GitHub!
 
