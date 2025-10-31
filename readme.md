@@ -2,7 +2,6 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.7+-green.svg)
-![License](https://img.shields.io/badge/license-MIT-orange.svg)
 ![Status](https://img.shields.io/badge/status-production-brightgreen.svg)
 
 **A production-grade Python automation script that intelligently organizes your files by type with advanced features like undo functionality, duplicate handling, and comprehensive logging.**
