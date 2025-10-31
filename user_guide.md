@@ -4,7 +4,7 @@ Welcome to the comprehensive user guide for the File Organizer automation script
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Getting Started](#getting-started)
 2. [Step-by-Step Tutorial](#step-by-step-tutorial)
@@ -19,7 +19,7 @@ Welcome to the comprehensive user guide for the File Organizer automation script
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### What is File Organizer?
 
@@ -27,11 +27,11 @@ File Organizer is an intelligent Python script that automatically sorts your fil
 
 ### Who Should Use This?
 
-- 👨‍💼 **Professionals** - Keep your work folders organized
-- 👨‍🎓 **Students** - Manage study materials efficiently
-- 📸 **Photographers** - Sort media files quickly
-- 💻 **Developers** - Organize project files
-- 🏠 **Home Users** - Clean up personal files
+- **Professionals** - Keep your work folders organized
+- **Students** - Manage study materials efficiently
+- **Photographers** - Sort media files quickly
+- **Developers** - Organize project files
+- **Home Users** - Clean up personal files
 
 ### System Requirements
 
@@ -42,7 +42,7 @@ File Organizer is an intelligent Python script that automatically sorts your fil
 
 ---
 
-## 📖 Step-by-Step Tutorial
+## Step-by-Step Tutorial
 
 ### Tutorial 1: Your First Organization
 
@@ -87,12 +87,12 @@ python file_organizer.py -p ~/Downloads --dry-run
 ║            Intelligent File Organization System           ║
 ╚═══════════════════════════════════════════════════════════╝
 
-🔍 DRY RUN MODE - No files will be moved
+DRY RUN MODE - No files will be moved
 
 Found 45 file(s) to organize.
 Organizing files... ████████████████████ 100%
 
-📊 Organization Summary
+Organization Summary
 ┏━━━━━━━━━━━━━┳━━━━━━━┓
 ┃ Metric      ┃ Value ┃
 ┡━━━━━━━━━━━━━╇━━━━━━━┩
@@ -103,7 +103,7 @@ Organizing files... ████████████████████
 │ Time Taken  │ 0.23s │
 └─────────────┴───────┘
 
-📁 Files by Category
+Files by Category
 ┏━━━━━━━━━━━┳━━━━━━━┓
 ┃ Category  ┃ Count ┃
 ┡━━━━━━━━━━━╇━━━━━━━┩
@@ -122,7 +122,7 @@ If the preview looks good:
 python file_organizer.py -p ~/Downloads
 ```
 
-✅ **Success!** Your files are now organized into categories.
+**Success!** Your files are now organized into categories.
 
 #### Step 5: Verify the Results
 
@@ -230,7 +230,7 @@ All files from subdirectories are organized at the root level.
 
 ---
 
-## 📂 Understanding File Categories
+## Understanding File Categories
 
 ### Default Categories
 
@@ -258,7 +258,7 @@ Files without extensions (e.g., `README`, `Makefile`) are automatically placed i
 
 ---
 
-## 🎓 Advanced Usage
+## Advanced Usage
 
 ### Combining Multiple Options
 
@@ -327,7 +327,7 @@ pause
 
 ---
 
-## ⚙️ Configuration Deep Dive
+## Configuration Deep Dive
 
 ### Complete Configuration Example
 
@@ -420,7 +420,7 @@ Directories to skip:
 
 - **`rename`** - Adds timestamp: `file_20241015_143022.pdf`
 - **`skip`** - Keeps original, skips new file
-- **`overwrite`** - Replaces old with new (⚠️ Use carefully!)
+- **`overwrite`** - Replaces old with new (Use carefully!)
 
 #### 5. Logging Configuration
 
@@ -439,7 +439,7 @@ Directories to skip:
 
 ---
 
-## 💡 Best Practices
+## Best Practices
 
 ### 1. Always Test with Dry Run First
 
@@ -468,10 +468,10 @@ python file_organizer.py -p ~/Important_Files
 Don't organize your entire computer at once!
 
 ```bash
-# ✅ GOOD: Start with one folder
+# GOOD: Start with one folder
 python file_organizer.py -p ~/Downloads
 
-# ❌ BAD: Organizing system folders
+# BAD: Organizing system folders
 python file_organizer.py -p /  # Never do this!
 ```
 
@@ -523,7 +523,7 @@ grep ERROR file_organizer.log
 
 ---
 
-## 🌍 Real-World Use Cases
+## Real-World Use Cases
 
 ### Use Case 1: Student Organizing Study Materials
 
@@ -609,7 +609,7 @@ tar -czf archive_2024.tar.gz ~/Archive_2024
 
 ---
 
-## 📊 Command Reference Table
+## Command Reference Table
 
 | Command | Short | Arguments | Description | Example |
 |---------|-------|-----------|-------------|---------|
@@ -642,7 +642,7 @@ python file_organizer.py -p ~/folder -u
 
 ---
 
-## ❓ FAQ (Frequently Asked Questions)
+## FAQ (Frequently Asked Questions)
 
 ### General Questions
 
@@ -726,7 +726,7 @@ python file_organizer.py -p ~/folder -u
 
 ---
 
-## 🔧 Troubleshooting Guide
+## Troubleshooting Guide
 
 ### Issue 1: Script Won't Start
 
@@ -893,7 +893,7 @@ export LANG=en_US.UTF-8  # Linux/Mac
 
 ---
 
-## 📈 Performance Tips
+## Performance Tips
 
 ### 1. Optimize for Speed
 
@@ -938,7 +938,7 @@ python file_organizer.py -p ~/folder/batch2
 
 ---
 
-## 🎓 Learning Path
+## Learning Path
 
 ### Beginner Level (Week 1-2)
 1. Install and setup
@@ -963,15 +963,15 @@ python file_organizer.py -p ~/folder/batch2
 
 ---
 
-## 📞 Getting Help
+## Getting Help
 
 ### Before Asking for Help
 
-1. ✅ Check this user guide
-2. ✅ Review the log file
-3. ✅ Try with `--verbose` mode
-4. ✅ Search existing issues on GitHub
-5. ✅ Try with a small test folder first
+1. Check this user guide
+2. Review the log file
+3. Try with `--verbose` mode
+4. Search existing issues on GitHub
+5. Try with a small test folder first
 
 ### Where to Get Help
 
@@ -994,7 +994,7 @@ Include this information:
 
 ---
 
-## 🎯 Quick Reference Card
+## Quick Reference Card
 
 ### Most Common Commands
 ```bash
@@ -1031,7 +1031,7 @@ python file_organizer.py --create-config
 
 ---
 
-## 📝 Cheat Sheet
+## Cheat Sheet
 
 | Task | Command |
 |------|---------|
@@ -1048,26 +1048,26 @@ python file_organizer.py --create-config
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 Now that you've completed this guide:
 
-1. ✅ Practice with test folders
-2. ✅ Create your custom configurations
-3. ✅ Set up automation for regular organization
-4. ✅ Share your success with others
-5. ✅ Contribute improvements to the project
+1. Practice with test folders
+2. Create your custom configurations
+3. Set up automation for regular organization
+4. Share your success with others
+5. Contribute improvements to the project
 
 ---
 
-## 💬 Feedback
+## Feedback
 
 Found this guide helpful? Have suggestions for improvement?
 
-- ⭐ Star the project on GitHub
-- 📝 Open an issue for corrections
-- 🔄 Submit a pull request for additions
-- 📧 Email feedback to: aryanvirani@zohomail.in
+- Star the project on GitHub
+- Open an issue for corrections
+- Submit a pull request for additions
+- Email feedback to: aryanvirani@zohomail.in
 
 ---
 
