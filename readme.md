@@ -80,7 +80,7 @@ python file_organizer.py --version
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### Basic Usage
 ```bash
